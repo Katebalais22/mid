@@ -1,0 +1,18 @@
+
+.app-wrapper {
+
+
+}
+
+.app-content {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+} 
+
+.side {
+  width: 100%;
+  background: pink;
+  height: 100vh;
+  display: grid;
+}
+

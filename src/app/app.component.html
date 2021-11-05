@@ -1,2 +1,24 @@
 
-<h1>Hello</h1>
+<div class="app-wrapper">
+    <mat-toolbar color="primary">
+      <span>Kate</span>
+    </mat-toolbar>
+
+  <div class="app-content">
+    <div class="app-page">
+      <router-outlet></router-outlet>
+    </div>
+    <div class="side">
+      <button class="btn" mat-button routerLink="/profile">
+        <mat-icon>home</mat-icon>Profile
+      </button>
+      <button class="btn" mat-button routerLink="/profile">
+        <mat-icon>home</mat-icon>Profile
+      </button>
+      <button class="btn" mat-button routerLink="/profile">
+        <mat-icon>home</mat-icon>Profile
+      </button>
+    </div>
+  </div>
+</div>
+
