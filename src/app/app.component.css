@@ -4,15 +4,32 @@
 
 }
 
+.app-wrapper mat-toolbar {
+  background: #571a3d;
+  color: #fff; 
+}
+
 .app-content {
   display: grid;
-  grid-template-columns: 1fr 200px;
+  grid-template-columns: 1fr 240px;
+  padding: 20px;
+  background: #e8e7ee;
 } 
 
 .side {
+  width: 200px;
+  background: #fff;
+  color: #571a3d; 
+  height: calc(100vh - 150px);
+  padding: 20px;
+  box-shadow: 0 4px 4px 0 RGB(43 80 237 / 20%);
+  border-radius: 8px;
+}
+
+.side .btn {
   width: 100%;
-  background: pink;
-  height: 100vh;
-  display: grid;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
 }
 
