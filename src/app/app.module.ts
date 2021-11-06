@@ -16,6 +16,8 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,8 @@ import { MatChipsModule } from '@angular/material/chips';
     MatListModule,
     MatCardModule,
     MatChipsModule,
+    MatInputModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
